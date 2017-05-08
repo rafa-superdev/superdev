@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Superdev</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="cabecalho">
+      <img src="/assets/logo.png" alt="Logo SuperDev" width="150px">
+    </div>
+
+    <%= yield %>
+
+    <div class="rodape">
+      <p>Copyright @ 2017 SuperDev</p>
+      <div>
+        <a href="#" class="link-rodape">Contato</a>
+        <span class="divisor">.</span>
+        <a href="#" class="link-rodape">Sobre</a>
+        <span class="divisor">.</span>
+        <a href="https://facebook.com/superdev.academy" target="_blank" class="link-rodape">Facebook</a>
+      </div>
+    </div>
+
+  </body>
+</html>

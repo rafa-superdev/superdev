@@ -1,0 +1,87 @@
+body {
+  font-family: Arial;
+}
+
+.cabecalho {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.rodape {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link-rodape {
+  text-decoration: none;
+  color: #2c87d6;
+}
+
+.divisor {
+  font-size: 20px;
+  color: #8c8c8c;
+}
+
+.principal {
+  background-color: #f1f3f3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mapa {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  padding: 3px;
+}
+
+.titulo-mapa {
+  margin: 10px;
+}
+
+.texto-titulo {
+  position: relative;
+  bottom: 6px;
+}
+
+.cursos {
+  background-image: url(/assets/bg_mapa.png);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link-curso {
+  display: block;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 190px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  text-decoration: none;
+  border: 1px solid #eee;
+  border-top: 0;
+  text-align: center;
+}
+
+.nome-curso {
+  color: #333;
+  position: relative;
+  bottom: 19px;
+}
+
+.divisor-curso {
+  background: #fff;
+  width: 10px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}

@@ -1,0 +1,18 @@
+<div class="principal">
+  <div class="mapa">
+    <div class="titulo-mapa">
+      <img src="/assets/marker.png" alt="Map Marker">
+      <strong class="texto-titulo">Mapa de Cursos</strong>
+    </div>
+
+    <div class="cursos">
+      <% @cursos.each do |curso| %>
+        <a href="#" class="link-curso">
+          <img src="<%= curso.imagem %>" alt="HTML" width="50px">
+          <span class="nome-curso"><%= curso.nome %></span>
+        </a>
+        <span class="divisor-curso"></span>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<form action="/cursos/<%= @curso.id %>/editar" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+  Nome:
+  <input type="text" name="nome" value="<%= @curso.nome %>">
+
+  <br><br>
+  Imagem
+  <input type="text" name="imagem" value="<%= @curso.imagem %>">
+
+  <button type="submit">Atualizar curso</button>
+</form>

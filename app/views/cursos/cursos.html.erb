@@ -1,0 +1,21 @@
+<h1>Cursos</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Imagem</th>
+    <th>Ações</th>
+  </tr>
+  <% @cursos.each do |curso| %>
+    <tr>
+      <td><%= curso.nome %></td>
+      <td><%= curso.imagem %></td>
+      <td>
+        <a href="/cursos/<%= curso.id %>/editar">Editar</a>
+        <a href="/cursos/<%= curso.id %>/deletar">Deletar</a>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<a href="/cursos/novo">Novo curso</a>
